@@ -22,7 +22,7 @@ hayvanlar={
 
 def cevir(*args, **kwargs):
     for hayvan in args:
-        print("{} {}".format(hayvan,kwargs[hayvan])) 
+        print("{} = {}".format(hayvan,kwargs[hayvan])) 
         
 
 while True:
